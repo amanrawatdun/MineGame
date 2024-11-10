@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Mines: <span id="mines-count">0</span></h1>
+    <button id="flag-button">🚩</button>
+    <div class="header">
+        <div class="main-header">
+            <select id="select">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <div class="display">
+                <div class="flag">🚩:-</div>
+                <div class="flag-count">00</div>
+                <div class="watch">⏱️:-</div>
+                <div class="watch-count">00</div>
+            </div>
+            <button class="restart">Restart</button>
+        </div>
+
+        <div id="board">
+            <!-- <section class="result-box">
+                <h1 class="result">you lose</h1>
+                <p class="para">your time</p>
+            </section> -->
+        </div>
+    </div>
+    <br>
+  
+
+    <script src="script.js"></script>
+</body>
+
+</html>
